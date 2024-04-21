@@ -13,7 +13,7 @@ const token = 'MTIzMTU4Njk0MjUyNTg5ODgxMg.G6UDlG.9MdtuVZosOnS36vUXVrwY1rMw6Isszk
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
     // Set interval to remind every 45 minutes
-    setInterval(sendReminder, 45 * 60 * 1000); // 45 minutes * 60 seconds * 1000 milliseconds
+    setInterval(sendReminder, 30 * 60 * 1000); // 45 minutes * 60 seconds * 1000 milliseconds
 });
 
 async function sendReminder() {
