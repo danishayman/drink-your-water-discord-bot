@@ -8,7 +8,7 @@ const client = new Client({
 });
 
 // Bot token from the Discord Developer Portal
-const token = 'MTIzNTk2NjgzNDg5ODExMjYxNQ.GgkzMC.6P82zFMRgnPTnZxDQBQPELWSw1SGwhgEQHHWW4';
+const token = 'MTIzMTU4Njk0MjUyNTg5ODgxMg.GZu_d7.JSIp7BrbNt26DHOkPDZvgkw6zhfHWFYcUqAvvY';
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
