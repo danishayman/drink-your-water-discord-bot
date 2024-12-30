@@ -8,7 +8,7 @@ const client = new Client({
 });
 
 // Bot token from the Discord Developer Portal
-const token = '';
+const token = 'YOUR_BOT_TOKEN';
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
@@ -17,7 +17,7 @@ client.on('ready', () => {
 });
 
 async function sendReminder() {
-    const channel = client.channels.cache.get('754370259716276329');
+    const channel = client.channels.cache.get('your-channel-id'); // Channel ID
     if (channel) {
         try {
             // Send reminder message with GIF link and line break
