@@ -17,7 +17,7 @@ client.on('ready', () => {
 });
 
 async function sendReminder() {
-    const channel = client.channels.cache.get('754370259716276329'); // Replace
+    const channel = client.channels.cache.get('754370259716276329');
     if (channel) {
         try {
             // Send reminder message with GIF link and line break
